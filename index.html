@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FutureTech Innovations</title>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #ddd;
+    scroll-behavior: smooth;
+}
+
+/* HEADINGS */
+h1 {
+    color: #00aaff;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    color: #00aaff;
+    text-align: center;
+    font-size: 34px;
+}
+
+/* PARAGRAPHS (BIG + BOLD + YELLOW) */
+p {
+    color: yellow;
+    font-weight: bold;
+    text-align: center;
+    font-size: 19px;
+    line-height: 2;
+    max-width: 950px;
+    margin: 20px auto;
+}
+
+/* NAVBAR */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #111;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.nav-btn {
+    background-color: #00aaff;
+    color: black;
+    border: none;
+    padding: 12px 22px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    background: white;
+}
+
+/* SECTIONS */
+section {
+    min-height: 100vh;
+    padding: 120px 30px 60px;
+}
+
+/* PROFILE + LOGO */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.profile-pic, .logo {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: 6px solid #00aaff;
+}
+
+/* BOX */
+.box {
+    background: #111;
+    padding: 30px;
+    margin: 30px auto;
+    width: 85%;
+    border-radius: 12px;
+    border: 1px solid #00aaff;
+}
+
+/* THUMBNAIL */
+.thumbnail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FOUNDER */
+.founder {
+    font-size: 42px;
+    color: #00aaff;
+    margin-top: 20px;
+}
+
+.name {
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+}
+
+.since {
+    font-size: 22px;
+    color: yellow;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <button class="nav-btn" onclick="goTo('thumbnail')">Home</button>
+    <button class="nav-btn" onclick="goTo('services')">Offerings</button>
+    <button class="nav-btn" onclick="goTo('trust')">Trust</button>
+    <button class="nav-btn" onclick="goTo('contact')">Contact</button>
+</nav>
+
+<!-- THUMBNAIL PAGE -->
+<section id="thumbnail" class="thumbnail">
+
+    <div class="profile-container">
+        <img src="IMG_1797.jpeg" class="profile-pic">
+        <img src="logo.png" class="logo">
+    </div>
+
+    <div class="founder">FOUNDER</div>
+    <div class="name">AYUSH SINGH</div>
+    <div class="since">Since 2022</div>
+
+    <p>
+        Welcome to FutureTech Innovations, a vision driven by creativity, passion, and the desire 
+        to innovate. This platform represents not only a project but also a journey of learning, 
+        growth, and exploration into the world of technology and design. Our mission is to inspire 
+        students and creators to push their limits and create something extraordinary.
+    </p>
+
+</section>
+
+<!-- PAGE 1 -->
+<section id="home">
+    <h1>Welcome to FutureTech Innovations</h1>
+
+    <h2>About Me and My Vision</h2>
+
+    <p>
+        I am a student of Class 8G at City Montessori School, and I have always been curious 
+        about how technology works and how it can be used to create something meaningful. 
+        My interest in digital creativity, design, and innovation has led me to develop this 
+        platform as a way to express my ideas and showcase my skills.
+    </p>
+
+    <p>
+        FutureTech Innovations is not just a company name, but a concept that represents 
+        forward thinking, creativity, and continuous learning. I believe that every student 
+        has the potential to create something amazing, and with the right tools and guidance, 
+        they can achieve great success in their academic and creative journey.
+    </p>
+
+    <p>
+        This website is designed to reflect professionalism and creativity at the same time. 
+        It demonstrates how modern tools and ideas can be combined to create a strong digital 
+        presence. Through this project, I aim to inspire others to explore technology and 
+        develop their own innovative ideas.
+    </p>
+
+</section>
+
+<!-- PAGE 2 -->
+<section id="services">
+    <h1>What I Am Offering For?</h1>
+
+    <div class="box">
+
+        <p>
+            At FutureTech Innovations, we provide creative digital solutions that are designed 
+            especially for students who want to improve their projects and presentations. Our 
+            offerings include innovative ideas, creative designs, and structured guidance that 
+            help students stand out in their academic work.
+        </p>
+
+        <p>
+            We focus on making complex ideas simple and easy to understand, so that every student 
+            can benefit from our services. Our aim is to combine creativity with practicality, 
+            ensuring that the solutions we provide are both useful and impressive.
+        </p>
+
+        <p>
+            Whether it is a school assignment, a presentation, or a creative project, our platform 
+            offers the right support and guidance to help you achieve professional results. We 
+            believe in empowering students with knowledge and creativity.
+        </p>
+
+    </div>
+
+    <div class="box">
+        <h2>Pricing Details</h2>
+
+        <p><strong>Basic Plan - ₹499</strong> – Ideal for beginners who need simple and effective solutions.</p>
+
+        <p><strong>Standard Plan - ₹999</strong> – Best for students looking for advanced creativity and design.</p>
+
+        <p><strong>Premium Plan - ₹1999</strong> – Complete professional support with customized solutions.</p>
+
+    </div>
+</section>
+
+<!-- PAGE 3 -->
+<section id="trust">
+    <h1>Why You Can Trust My Website?</h1>
+
+    <div class="box">
+
+        <p>
+            Trust is the foundation of any successful platform, and at FutureTech Innovations, 
+            we are committed to maintaining the highest standards of quality and reliability. 
+            Every service we offer is designed with careful planning and attention to detail.
+        </p>
+
+        <p>
+            We believe in transparency and honesty, ensuring that our users receive exactly 
+            what they expect. Our focus is on building long-term relationships based on trust 
+            and satisfaction.
+        </p>
+
+        <p>
+            Continuous improvement and innovation are at the core of our approach. We regularly 
+            update our ideas and services to match modern trends and user expectations.
+        </p>
+
+        <p>
+            By choosing our platform, you are choosing dedication, creativity, and a commitment 
+            to excellence. Your trust motivates us to keep improving and delivering our best.
+        </p>
+
+    </div>
+</section>
+
+<!-- PAGE 4 -->
+<section id="contact">
+    <h1>Contact Us</h1>
+
+    <div class="box">
+
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Email:</strong> support@futuretech.com</p>
+        <p><strong>Address:</strong> Lucknow, Uttar Pradesh, India</p>
+
+        <p>
+            If you have any questions, suggestions, or collaboration ideas, feel free to 
+            contact us. We are always ready to assist you and provide the best possible 
+            solutions for your needs.
+        </p>
+
+        <p>
+            Your feedback is extremely valuable to us as it helps us grow and improve. 
+            We appreciate your time and interest in our platform.
+        </p>
+
+        <h2>Thank You For Visiting My Website!</h2>
+
+    </div>
+</section>
+
+<!-- JS -->
+<script>
+function goTo(id) {
+    document.getElementById(id).scrollIntoView({
+        behavior: "smooth"
+    });
+}
+</script>
+
+</body>
+</html>
